@@ -20,10 +20,7 @@ disqusShortname = "janvt"
     info = ""
     description = "portfolio"
     keywords = "developer,coder,freelancer"
-    avatarurl = "images/avatar.jpg"
-
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    avatarurl = "images/janvt.jpg"
 
     footercontent = ""
 
