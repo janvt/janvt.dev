@@ -1,4 +1,6 @@
 <section class="container page">
+  {{ .Content }}
+
   <form name="contact" method="POST" data-netlify="true"netlify-honeypot="zumzum" >
     <p>
       <label>Name: <input type="text" name="name" /></label>
@@ -10,7 +12,7 @@
       <label class="zumzum">Leave this empty: <input type="text" name="zumzum" /></label>
     </p>
     <p>
-      <label>Message: <textarea name="message"></textarea></label>
+      <textarea class="message" name="message"></textarea>
     </p>
     <p>
       <button type="submit">Send</button>
@@ -19,5 +21,9 @@
 </section>
 
 <style type="text/css">
+  .message {
+    width: 80%;
+    height: 8em;
+  }
   .zumzum { display:none; }
 </style>
