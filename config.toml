@@ -17,8 +17,8 @@ disqusShortname = "janvt"
 
 [params]
     author = "Jan vT"
-    info = ""
-    description = "portfolio"
+    info = "software engineer & feedback cycle nerd"
+    description = "janvt - developer portfolio"
     keywords = "developer,coder,freelancer"
     avatarurl = "images/janvt.jpg"
 
@@ -29,7 +29,7 @@ disqusShortname = "janvt"
 
     rtl = false
 
-    math = true
+    math = false
     custom_css = ["css/custom.css"]
 
 # Social links
