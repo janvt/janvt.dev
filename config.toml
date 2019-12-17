@@ -24,8 +24,8 @@ disqusShortname = "janvt"
 
     footercontent = ""
 
-    hidecredits = false
-    hidecopyright = false
+    hidecredits = true
+    hidecopyright = true
 
     rtl = false
 
@@ -48,3 +48,12 @@ disqusShortname = "janvt"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/janvt/"
+
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url  = "/about/"
+[[menu.main]]
+    name = "Contact"
+    weight = 1
+    url  = "/contact/"
