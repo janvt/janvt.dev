@@ -32,6 +32,22 @@ a {
   }
 }
 
+a.service-mini-teaser {
+  color: $fg-color;
+  padding: 5px;
+}
+
+.read-more a {
+  float: right;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: $link-color-secondary;
+}
+
+.separator {
+  color:$fg-color-light;
+}
+
 p {
   margin: 2.0rem 0 2.0rem 0;
 }
@@ -200,4 +216,9 @@ img {
 
 .fas {
   font-weight: 900;
+}
+.cf::after {
+  content: "";
+  clear: both;
+  display: table;
 }

@@ -16,8 +16,7 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "janvt"
 
 [params]
-    author = "Jan vT"
-    info = "software engineer & feedback cycle nerd"
+    author = "Jan van Thoor"
     description = "janvt - developer portfolio"
     keywords = "developer,coder,freelancer"
     avatarurl = "images/janvt.jpg"
@@ -50,10 +49,14 @@ disqusShortname = "janvt"
     url = "https://www.linkedin.com/in/janvt/"
 
 [[menu.main]]
-    name = "About"
+    name = "Services"
     weight = 1
+    url  = "/services/"
+[[menu.main]]
+    name = "About"
+    weight = 2
     url  = "/about/"
 [[menu.main]]
     name = "Contact"
-    weight = 1
+    weight = 3
     url  = "/contact/"
