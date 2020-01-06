@@ -20,6 +20,7 @@ disqusShortname = "janvt"
     description = "janvt - developer portfolio"
     keywords = "developer,freelancer,php,symfony,javascript,python,software architecture,system design,cloud,aws,gcp"
     avatarurl = "images/janvt.jpg"
+    images = ["images/janvt.jpg"]
 
     footercontent = ""
 
