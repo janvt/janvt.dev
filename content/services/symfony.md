@@ -6,7 +6,7 @@ homepage_link: symfony framework expert
 homepage_link_sub: specializing in application design, standardization and version upgrades
 ---
 
-I have years of experience with Symfony. I specialize in application design, standardizing applications and version upgrades.
+I have years of experience with the Symfony framework. I specialize in application design, standardizing applications and version upgrades.
 
 ## Application Design
 
