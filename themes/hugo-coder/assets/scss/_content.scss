@@ -167,3 +167,19 @@
     }
   }
 }
+
+.service {
+  h2 {
+    margin: 2em 0 1em 0;
+    a {
+      color: $fg-color;
+    }
+  }
+  .read-more a {
+    float: right;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: $link-color-secondary;
+    margin: 0;
+  }
+}
