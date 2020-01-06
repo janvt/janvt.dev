@@ -18,7 +18,7 @@ disqusShortname = "janvt"
 [params]
     author = "Jan van Thoor"
     description = "janvt - developer portfolio"
-    keywords = "developer,coder,freelancer"
+    keywords = "developer,freelancer,php,symfony,javascript,python,software architecture,system design,cloud,aws,gcp"
     avatarurl = "images/janvt.jpg"
 
     footercontent = ""
