@@ -1,15 +1,16 @@
 <nav class="navigation">
   <section class="container">
 
-    <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
-      {{ if eq .Title .Site.Title }}
-      {{ else }}
-        <span class="avatar-header">
-          <img src="{{ .Site.Params.avatarurl | relURL }}" alt="" />
-        </span>
-      {{ end }}
-      {{ .Site.Title }}
-    </a>
+    {{ if eq .Title .Site.Title }}
+    {{ else }}
+      <a class="navigation-title" href="{{ .Site.BaseURL | relLangURL }}">
+
+          <span class="avatar-header">
+            <img src="{{ .Site.Params.avatarurl | relURL }}" alt="" />
+          </span>
+        {{ .Site.Title }}
+      </a>
+    {{ end }}
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
     <ul class="navigation-list">

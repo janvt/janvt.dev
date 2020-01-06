@@ -4,6 +4,7 @@ weight: 2
 teaser: Faster is better. It means you do the wrong thing for less time. Making sure you get feedback as soon and as reliably as possible means you can be sure you are building the right thing.
 homepage_weight: 2
 homepage_link: feedback cycle nerd
+homepage_link_sub: who loves iterating and improving based on feedback loops, faster is always better
 ---
 
 # Why are feedback cycles so important?

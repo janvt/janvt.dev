@@ -4,9 +4,10 @@ weight: 1
 teaser: Got development work you need help with? I have experience in a variety of languages and can jump into any project.
 homepage_weight: 1
 homepage_link: software engineer
+homepage_link_sub: with over 12 years of experience
 ---
 
-I have over 10 years of software development experience. Starting with very low-level C, Assembler and micro-chip programming, then moving up to Windows development in C++. I later transitioned to web development, mostly in JavaScript and PHP. However, I have always found it simple to be a polyglot, transitioning between languages has always been easy. With a solid grasp of the fundamentals, execution details become less important.
+I have over 12 years of software development experience. Starting with very low-level C, Assembler and micro-chip programming, then moving up to Windows development in C++. I later transitioned to web development, mostly in JavaScript and PHP. However, I have always found it simple to be a polyglot, transitioning between languages has always been easy. With a solid grasp of the fundamentals, execution details become less important.
 
 ## Languages Experience:
 - **PHP**: expert (*10+ years*)

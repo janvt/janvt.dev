@@ -3,6 +3,7 @@ title: Symfony Framework
 weight: 3
 teaser: I have years of experience with the Symfony framework. I specialize in application design, version upgrades, and standardizing applications.
 homepage_link: symfony framework expert
+homepage_link_sub: specializing in application design, standardization and version upgrades
 ---
 
 I have years of experience with Symfony. I specialize in application design, standardizing applications and version upgrades.

@@ -1,33 +1,25 @@
 <section class="container centered">
   <div class="about">
+    <h1 class="hi">{{ .Site.Params.greeting }}</h1>
     {{ with .Site.Params.avatarurl }}
       <div class="avatar"><img src="{{ . | relURL }}" alt="avatar"></div>
     {{ end }}
     <h1>{{ .Site.Params.author }}</h1>
-    <h2>
+  </div>
+
+  <div class="services">
+    <h2>I'm a...</h2>
+    <ul class="services-teaser">
       {{ $services := .GetPage "/services" }}
       {{ $pages := where ($services.Pages.ByParam "homepage_weight") ".Params.homepage_link" "!=" nil }}
       {{ range $index, $page := $pages }}
-        {{ if $index }}<span class="separator">|</span>{{ end }}
-        <a class="service-mini-teaser" href="{{ .Permalink }}">{{ .Params.homepage_link }}</a>
-      {{ end }}
-    </h2>
-    {{ with .Site.Params.social }}
-    <ul>
-      {{ range sort .}}
-        {{ if .icon }}
-          <li>
-            <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>
-              <i class="{{ .icon }}" aria-hidden="true"></i>
-            </a>
-          </li>
-        {{ else }}
-          <li>
-            <a href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
-          </li>
-        {{ end }}
+        <li>
+          <h2>
+            <a class="service-mini-teaser" href="{{ .Permalink }}">{{ .Params.homepage_link }}</a>
+            <span class="service-mini-teaser-sub">{{ .Params.homepage_link_sub }}</span>
+          </h2>
+        </li>
       {{ end }}
     </ul>
-    {{ end }}
   </div>
 </section>

@@ -16,7 +16,9 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "janvt"
 
 [params]
-    author = "Jan van Thoor"
+    greeting = "Hi!"
+    author = " I'm Jan van Thoor"
+    years-of-experience = 12
     description = "janvt - developer portfolio"
     keywords = "developer,freelancer,php,symfony,javascript,python,software architecture,system design,cloud,aws,gcp"
     avatarurl = "images/janvt.jpg"
